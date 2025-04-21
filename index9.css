@@ -218,14 +218,17 @@ nav>ul{
  }
  @media screen and (max-width : 430px) {
     .banner1>h1{
-        font-size: 80px;
+        font-size: 65px;
         margin-top: -150px;
     }
     .banner1>p{
-        font-size: 30px;
+        font-size: 28px;
     }
     .banner2{
         margin-top: -80px;
+    }
+    .banner2adiv1 {
+        font-size: 19px;
     }
  }
 
@@ -303,6 +306,15 @@ nav>ul{
     }
 }
 
+@media screen and ( max-width : 500px ) {
+    .bannera>h1{
+        font-size: 45px;
+    }
+    .bannera>p {
+       font-size: 20px;
+    }
+}
+
 /* for section3 */
 .section3{
     min-height: 1072px;
@@ -344,7 +356,7 @@ nav>ul{
     }
 
     .section3a>h2 {
-        font-size: 55px;
+        font-size: 50px;
     }
 }
 
@@ -473,6 +485,25 @@ nav>ul{
     }
 }
 
+@media screen and (max-width: 500px) {
+    .banner8a>h2 {
+        font-size: 40px;
+    }
+    .banner8a>p {
+        font-size: 22px;
+    }
+    .banner8c>h2 {
+        font-size: 42px;
+        text-align: center;
+    }
+    .banner8e {
+        margin-top: 20px;
+
+    }
+    .banner8e>p {
+    font-size: 23px;
+    }
+}
 /* for section5 */
 
 .part5{
@@ -571,12 +602,13 @@ nav>ul{
         margin-top: -400px;
     } 
 }
-@media screen and ( max-width : 410px) {
+@media screen and ( max-width : 450px) {
     .banner6{
         margin-top: -490px;
     }
     .banner6>h2 {
         font-size: 24px;
+        margin-top: 55px;
 
     }
     
@@ -629,6 +661,7 @@ nav>ul{
     color: white;
 }
 
+
 @media screen and ( max-width : 750px ) {
     .footer1a>h3{
         font-size: 80px;
@@ -642,6 +675,7 @@ nav>ul{
         flex-wrap: wrap;
         flex-basis: 100%;
         margin-top: 15px;
+        gap: 20px;
     }
     .footer1{
         margin-top: 40px;
@@ -654,12 +688,22 @@ nav>ul{
 
     }
 
-    @media screen and ( max-width : 400px) {
+}
+    @media screen and ( max-width : 500px) {
         .footer1b>.button {
-            font-size: 23px;
+            font-size: 18px;
  
         }
+        .footer1b>.button {
+            padding: 11px 24px;
+        }
+        .footer1b{
+            gap: 20px;
+        }
+        .footer1a>h3 {
+            font-size: 42px;
+        }
     }
-}
+
 
 
